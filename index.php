@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array</title>
+  <title>User Input Form</title>
 </head>
 <body>
-<form name="frm" method="post" action="index.php">
-<input type="text" name="txt" id="txt"/>
-<input type="submit"/>
-</form>
+  <form action="proses.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+
+    <label for="nomatrik">No Matrik:</label>
+    <input type="text" id="nomatrik" name="nomatrik"><br>
+
+    <input type="submit" value="Submit">
+  </form>
 </body>
 </html>

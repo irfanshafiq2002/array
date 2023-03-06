@@ -10,7 +10,6 @@
 
     <label for="nomatrik">No Matrik:</label>
     <input type="text" id="nomatrik" name="nomatrik"><br>
-
     <input type="submit" value="Submit">
   </form>
 </body>

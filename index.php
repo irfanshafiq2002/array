@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,3 +15,5 @@
   </form>
 </body>
 </html>
+=======
+>>>>>>> feab138f213430d253cd81db856c5057d17c6706

@@ -1,10 +1,11 @@
 <?php
-session_start();
+// Retrieve data from URL
+$name = $_GET['name'];
+$nomatrik = $_GET['nomatrik'];
 
-$user_data = $_SESSION['user_data']; 
-
-// Display the user data
-echo 'Name: ' . $user_data['name'] . '<br>';
-echo 'No Matrik: ' . $user_data['nomatrik'] . '<br>';
-
-unset($_SESSION['user_data']);
+// Display data as a table
+echo "<table>";
+echo "<tr><td>Name:</td><td>" . $name . "</td></tr>";
+echo "<tr><td>No Matrik:</td><td>" . $nomatrik . "</td></tr>";
+echo "</table>";
+?>
